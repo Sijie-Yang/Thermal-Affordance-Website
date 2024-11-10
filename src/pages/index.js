@@ -549,8 +549,7 @@ const IndexPage = () => {
               <DownloadButton 
                 href={`/data/${selectedCity}_VATA_perception_points.gpkg`}
                 className={selectedCity !== 'singapore' ? 'disabled' : ''}
-                target="_blank"
-                rel="noopener noreferrer"
+                download
               >
                 Download {selectedCity.charAt(0).toUpperCase() + selectedCity.slice(1)} Dataset
               </DownloadButton>
