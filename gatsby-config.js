@@ -2,9 +2,10 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  pathPrefix: "Thermal-Affrodance_website",
   siteMetadata: {
     title: `Thermal Affordance`,
-    siteUrl: `https://vata.sijie-yang.com`
+    siteUrl: `https://ta.sijie-yang.com`
   },
   plugins: [
     "gatsby-plugin-styled-components", 
@@ -17,14 +18,14 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: "images",
-        path: "./src/images"
+        path: `${__dirname}/src/images`
       }
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: "pages",
-        path: "./src/pages/"
+        path: `${__dirname}/src/pages`
       }
     },
     {
