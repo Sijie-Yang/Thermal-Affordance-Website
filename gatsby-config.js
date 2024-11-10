@@ -21,5 +21,14 @@ module.exports = {
       "path": "./src/pages/"
     },
     __key: "pages"
+  }, {
+    resolve: 'gatsby-plugin-webpack-config',
+    options: {
+      resolve: {
+        fallback: {
+          "path": require.resolve("path-browserify")
+        }
+      }
+    }
   }]
 };
