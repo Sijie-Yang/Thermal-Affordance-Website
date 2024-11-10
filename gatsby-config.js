@@ -9,7 +9,6 @@ module.exports = {
   plugins: [
     "gatsby-plugin-styled-components", 
     "gatsby-plugin-image", 
-    "gatsby-plugin-sitemap", 
     "gatsby-transformer-remark", 
     "gatsby-plugin-sharp", 
     "gatsby-transformer-sharp",
