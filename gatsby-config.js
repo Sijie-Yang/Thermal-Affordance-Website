@@ -2,7 +2,6 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  pathPrefix: "Thermal-Affrodance_website",
   siteMetadata: {
     title: `Thermal Affordance`,
     siteUrl: `https://ta.sijie-yang.com`
